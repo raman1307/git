@@ -1,0 +1,116 @@
+    1  mkdir gitTest
+    2  ls
+    3  ls -ltr
+    4  cd gitTest/
+    5  ls -ltr
+    6  echo "# TestGit" >> README.md
+    7  ls
+    8  git init
+    9  ls
+   10  ls
+   11  ls
+   12  ls -ltr
+   13  gedit README.md 
+   14  vi README.md 
+   15  ls
+   16  ls -ltr
+   17  git add README.md 
+   18  git commit -m "First commit"
+   19  git config --global user.name
+   20  git config --global user.name "raman1307"
+   21  git config --global user.password "Raman@123"
+   22  git init
+   23  ls
+   24  git add README.md 
+   25  git commit -m "First commit"
+   26  git config --global user.name "raman1307"
+   27  git config --global -user.email "raman12singal@gmail.com"
+   28  git config --global user.email "raman12singal@gmail.com"
+   29  git init
+   30  git add .
+   31  git commit -m "first commit"
+   32  git remore add origin https://github.com/raman1307/TestGit.git
+   33  git remote add origin https://github.com/raman1307/TestGit.git
+   34  git push -u origin master
+   35  git push -u origin master
+   36  echo "# test2" >> test2
+   37  ls
+   38  tailf test2 
+   39  more test2 
+   40  vi test2 
+   41  git add .
+   42  git add test2 
+   43  git commit -m "this is Second commit"
+   44  git push origin master
+   45  cd
+   46  clear
+   47  ls
+   48  clear
+   49  pwd
+   50  q
+   51  exit
+   52  cd gitTest/
+   53  git diff
+   54  cd gitTest/
+   55  git status
+   56  ls
+   57  cd
+   58  cd gitTest/
+   59  git branch
+   60  git branch
+   61  exit
+   62  cd gitTest/
+   63  git branch
+   64  git checkout branch2
+   65  git checkout Branch2
+   66  git branch
+   67  git checout -b branch2
+   68  git checkout  branch2
+   69  git checkout master
+   70  git checkout branch2
+   71  git checkout -d branch2
+   72  git branch -d branch2
+   73  git checkout master
+   74  ls
+   75  git checkout branch2
+   76  ls
+   77  git checkout master
+   78  git branch -d branch2
+   79  git checkout branch2
+   80  git push
+   81  git checkout -b branch2
+   82  ls
+   83  ls
+   84  clear
+   85  git remote
+   86  git checkout -b branch2
+   87  git push origin branch2
+   88  git log --online
+   89  cd ..
+   90  git log --oneline
+   91  cd gitTest/
+   92  git log --onelinie
+   93  git log --oneline
+   94  git fetch origin
+   95  git checkout master
+   96  git status
+   97  git fetch origin
+   98  pwd
+   99  exit
+  100  git branch
+  101  git branch
+  102  git staus
+  103  git status
+  104  clear
+  105  git add *
+  106  git
+  107  git
+  108  cd F:
+  109  cd GIT_PROJECT/
+  110  cd .git/
+  111  ls
+  112  ls
+  113  cd ..
+  114  ls
+  115  history 
+  116  history > history_29Sep.txt
